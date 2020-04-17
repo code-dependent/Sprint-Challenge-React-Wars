@@ -49,7 +49,7 @@ const prevPageHandler = ()=>{
       <Button style={{width: '40px', height:'30px'}} onClick={nextPageHandler}>Next Page</Button>
 
       {
-        character.map(char=>(<Characters on={nextPageHandler} key={char.id} char={char}></Characters>))
+        character.map(char=>(<Characters key={char.id} char={char}></Characters>))
       }
     </Container>
   );
