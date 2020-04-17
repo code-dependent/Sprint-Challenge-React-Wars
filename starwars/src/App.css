@@ -1,8 +1,16 @@
-.App {
-  text-align: center;
-}
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
-/* write your parent styles in here for your App.js */
+.charCard{
+  background-color: dimgray;
+  border-radius: 5%;
+  width:30%;
+  margin:1em 1em;
+  border-color:rgb(175, 102, 18);
+  border-style:solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
